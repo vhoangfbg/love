@@ -1,8 +1,8 @@
 const btnCo = document.getElementById("btn_co");
 const btnKhong = document.getElementById("btn_khong");
-
+const lbl = document.getElementById("lbl")
 btnCo.addEventListener("click", function () {
-  alert("Chồm cũm yêu vợ ❤️");
+  lbl.textContent = "Chồm cũm yêu vợ nhiềuuuuuuuu❤️❤️❤️❤️❤️"
 });
 
 btnKhong.addEventListener("click", function () {
